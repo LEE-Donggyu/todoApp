@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Out</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="today">
+      <h2>To Do List</h2>
+      <h4 id="totoday">Today</h4>
+    </div>
+
+    <div class="list">
+      <table>
+        <tr id="list_title">
+          <th class="checkbox">Check</th>
+          <th class="time">Time</th>
+          <th class="workout">Work Out</th>
+        </tr>
+        <tbody>
+          <tr class="list_items">
+            <td class="checkbox"><input type="checkbox"></td>
+            <td class="time">00:00</td>
+            <td class="workout">Jump Rope(1,000times)<button class="del">x</button></td>
+          </tr>
+          <tr class="list_items">
+            <td class="checkbox"><input type="checkbox"></td>
+            <td class="time">00:00</td>
+            <td class="workout">Running(1km)<button class="del">x</button></td>
+          </tr>
+          <tr class="list_items">
+            <td class="checkbox"><input type="checkbox"></td>
+            <td class="time">00:00</td>
+            <td class="workout">Walk(500m)<button class="del">x</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="add">
+      <input type="text" id="add_item">
+      <button id="add_btn">Add</button>
+    </div> 
+
+    <div class="info">
+      <p>Info</p>
+    </div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>

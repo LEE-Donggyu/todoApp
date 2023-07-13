@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "메이플스토리";
+  src: url('MAPLESTORY\ LIGHT.TTF');
+}
+
+*{
+  font-family: "메이플스토리";
+}
+
+body{
+  background-color: #F2F2F2;
+  /* 글자 색상 : #202020 */
+}
+
+.container{
+  margin: auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 9px 17px 13px rgb(0 0 0 /16%);
+  background-color: white;
+}
+
+.today{
+  padding: 30px;
+  margin-top: 50px;
+}
+
+h2{
+  color: #202020;
+}
+
+h4{
+  text-align: right;
+  padding-right: 40px;
+}
+
+.sunday{
+  color: red;
+}
+.saturday{
+  color: blue;
+}
+
+.list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+}
+.checkbox{
+  width: 81.38px;
+}
+.time{
+  width: 81.38px;
+}
+
+th{
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+td{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.add{
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.add input, .add button{
+  height: 30px;
+}
+
+.add input{
+  width:60%;
+}
+
+.add button{
+  width: 10%;
+  height: 35.2px;
+}
+
+.del{
+  border: none;
+  color: gray;
+  border-radius: 10px;
+  text-align: center;
+  float: right;
+}
+
+.info{
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 70px;
+}
