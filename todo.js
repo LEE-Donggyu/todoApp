@@ -10,7 +10,7 @@ const today = () => {
   const year = KST.getFullYear();
   const month = KST.getMonth()+1;
   const date = KST.getDate();
-  const day1 = KST.getDay()+1;
+  const day1 = KST.getDay();
   let day2;
 
   totoday.classList.remove("sunday", "saturday");
